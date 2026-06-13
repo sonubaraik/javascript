@@ -28,3 +28,19 @@
 // }
 // console.log("Sum is",sum)
 
+// duplicate array
+// const arr = [12, 45, 6, 89, 23, 89, 45, 12];
+// let uniqueArr=[];
+// for(let i=0; i<arr.length; i++){
+//     if(!uniqueArr.includes(arr[i])){
+//         uniqueArr.push(arr[i]);
+//     }
+// }
+// console.log(uniqueArr);
+
+
+let a=3
+let b=2;
+[a,b]=[b,a];
+console.log(a)
+console.log(b)
