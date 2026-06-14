@@ -51,13 +51,17 @@
 // num.unshift(0)
 // console.log(num)
 
-const number=[10,20,30,40,50];
-console.log(number.slice(1,4));
-console.log(number.slice(1));
-console.log(number.slice(-3));
-console.log(number.slice(-4,-1));
-console.log(number.slice(0,-3));
-console.log(number.slice(0,3));
-console.log(number.slice());
-console.log(number.slice(-1)[0]);
-console.log(number.slice(-3));
+// const number=[10,20,30,40,50];
+// console.log(number.slice(1,4));
+// console.log(number.slice(1));
+// console.log(number.slice(-3));
+// console.log(number.slice(-4,-1));
+// console.log(number.slice(0,-3));
+// console.log(number.slice(0,3));
+// console.log(number.slice());
+// console.log(number.slice(-1)[0]);
+// console.log(number.slice(-3));
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let newFruits=fruits.splice(0,2)
+console.log(newFruits)
