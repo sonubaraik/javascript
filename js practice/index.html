@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        #counter{
+            margin-left: 80px;
+            color: rgb(37, 231, 111);
+            font-weight: 700;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+    <button onclick="reset()">Reset</button>
+    <p id="counter"></p>
+    <script>
+        const counter=document.getElementById("counter");
+        let count=0;
+        counter.textContent=count;
+        function increase(){
+            count++;
+            counter.textContent=count;
+        }
+        function decrease(){
+            count--;
+            counter.textContent=count;
+        }
+        function reset(){
+            count=0;
+            counter.textContent=count;
+        }
+    </script>
+</body>
+</html>

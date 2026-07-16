@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice2</title>
+</head>
+<body>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Phone">
+    <input type="text" placeholder="Email">
+    <button onclick="addBorder()">Submit</button>
+
+    <script>
+        const inputBtn=document.querySelectorAll("input");
+        function addBorder(){
+            inputBtn[0].style.border="2px solid black"
+            inputBtn[1].style.border="2px solid black"
+            inputBtn[2].style.border="2px solid black"
+        }
+    </script>
+</body>
+</html>
